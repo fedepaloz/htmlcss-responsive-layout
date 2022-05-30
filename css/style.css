@@ -32,11 +32,6 @@ body {
 }
 
 
-
-body {
-    max-width: 480px;
-}
-
 header {
     min-height: 60px;
     background-color: #0084FD;
@@ -48,15 +43,15 @@ header {
 }
 
 /* sezione demo */
-.demo-col {
+.demo-cont {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
 }
 
-.demo-card {
-    width: 80%;
+.demo-col {
+    width: 100%;
     min-height: 500px;
     background-color: #B5DDFF;
     margin-top: 50px;
@@ -67,48 +62,48 @@ header {
 
 /* sezione strategic planning con sfondo viola */
 
-.planning-col {
+.planning-cont {
     background-color: #9792E4;
     height: 800px;
     width: 100%;
 }
 
 /* sezione testimonials */
-.testimonial-col {
+.testimonial-cont {
     background-color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.testimonial-card {
+.testimonial-col {
     background-color: #9792E4;
     height: 500px;
     margin-top: 50px;
-    width: 80%;
+    width: 100%;
     border-radius: 30px;
 }
 
 
 /* sezione benefits */
 
-.benefits-col {
+.benefits-cont {
     background-color: #9792E4;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.benefits-card {
+.benefits-col {
     background-color: white;
     margin-top: 80px;
     height: 500px;
-    width: 90%;
+    width: 100%;
     border-radius: 20px;
 }
 
 
-.about-col {
+.about-cont {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -116,7 +111,7 @@ header {
 
 /* sezione get started */
 
-.start-col {
+.start-cont {
     background-color: #9792E4;
     width: 100%;
     height: 500px;
