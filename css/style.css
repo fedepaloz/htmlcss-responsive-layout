@@ -31,6 +31,10 @@ body {
     border-radius: 20px;
 }
 
+.width {
+    width: 80%;
+}
+
 
 header {
     min-height: 60px;
@@ -58,7 +62,7 @@ header {
     border-radius: 20px;
 }
 
-#big{min-height: 700px;}
+
 
 /* sezione strategic planning con sfondo viola */
 
@@ -69,11 +73,9 @@ header {
 }
 
 /* sezione testimonials */
-.testimonial-cont {
+.testimonial {
     background-color: white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
 }
 
 .testimonial-col {
@@ -84,14 +86,18 @@ header {
     border-radius: 30px;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
 
 /* sezione benefits */
 
 .benefits-cont {
     background-color: #9792E4;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  
 }
 
 .benefits-col {
