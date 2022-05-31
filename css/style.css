@@ -31,9 +31,7 @@ body {
     border-radius: 20px;
 }
 
-.width {
-    width: 80%;
-}
+
 
 
 header {
@@ -47,38 +45,42 @@ header {
 }
 
 /* sezione demo */
-.demo-cont {
+
+.container {
+    width: 100%;
+    padding: 7rem 3rem;
+}
+
+.row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
 }
 
-.demo-col {
+.col {
     width: 100%;
     min-height: 500px;
     background-color: #B5DDFF;
-    margin-top: 50px;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 
 
 /* sezione strategic planning con sfondo viola */
 
-.planning-cont {
+#strategic-planning{
     background-color: #9792E4;
-    height: 800px;
+    
     width: 100%;
 }
 
 /* sezione testimonials */
-.testimonial {
-    background-color: white;
 
-}
 
-.testimonial-col {
+
+#testimonial .col {
     background-color: #9792E4;
     height: 500px;
     margin-top: 50px;
@@ -86,21 +88,16 @@ header {
     border-radius: 30px;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-}
+
 
 /* sezione benefits */
 
-.benefits-cont {
+#benefits{
     background-color: #9792E4;
-  
+
 }
 
-.benefits-col {
+#benefits .col {
     background-color: white;
     margin-top: 80px;
     height: 500px;
@@ -108,8 +105,8 @@ header {
     border-radius: 20px;
 }
 
-
-.about-cont {
+/* sezione about */
+#about {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -117,7 +114,7 @@ header {
 
 /* sezione get started */
 
-.start-cont {
+#start{
     background-color: #9792E4;
     width: 100%;
     height: 500px;
@@ -129,10 +126,3 @@ footer {
     background-color: #333333;
     height: 300px;
 }
-
-
-
-
-
-
-
